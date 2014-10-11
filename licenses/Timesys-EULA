@@ -1,0 +1,377 @@
+End User License Agreement ("EULA") - March 1, 2012
+
+This End User License Agreement ("EULA") is a legal agreement between Timesys
+Corporation ("Timesys") and You concerning Timesys' TimeStorm, Desktop Factory
+and associated Installer Software (excluding Open Programs defined later)
+licensed hereunder ("Timesys Software"). Clicking the accept icon or otherwise
+using the Timesys Software constitutes Your agreement with and acceptance of
+this EULA. If You do not accept this EULA, You will NOT be authorized to use the
+Timesys Software and may be entitled to a refund of the fees, if any, You paid
+for the Timesys Software.
+
+This EULA does not apply to the Linux kernel nor to any other programs provided
+to You under an open source license, even if supplied in the same electronic
+file transmission as the Timesys Software. For example, Linux is subject to the
+GNU General Public License ("GPL"). Additional programs subject to other open
+source licenses, referred to herein as "open programs" may be identified by
+reading the "about.htm", "license" or "copyright" files with each program.
+
+The Timesys Software and Open Programs are separate and distinct programs even
+if provided within the same electronic file transmission. In addition, other
+programs subject to other license agreements may also be included within the
+same electronic transmission. Certain portions of the Timesys Software are
+subject to the Common Public License ("CPL") and/or other license terms as
+described in the "about.htm" and "license" files contained in those programs.
+
+The Timesys Software does not contain, nor is it derived from any programs and
+is NOT subject to the GPL or any other open source license.
+
+A. LICENSE GRANT
+
+1.
+
+Development License: Timesys hereby grants You a limited, non-exclusive, non-transferable
+license to install and use the Timesys Software for which You have paid any
+applicable fee(s), solely for Your internal use in the development of embedded
+applications ("Your Application") for distribution to Your customers. The
+Timesys Software may be used only by the number of users for which You have paid
+a Subscription and/or Software Development License Fee, if applicable. A
+Subscription or Development License may be transferred from one user to another
+only on a permanent (not temporary) basis. Only Your employees and contractors
+that agree to the terms of this EULA may access or use the Timesys Software.
+Timesys may offer certain Timesys Software on a "Floating License" basis. If You
+pay any applicable fee(s) for a Floating License, You shall have the license
+right to permit the specified number of concurrent users to access and use the
+Timesys Software. In addition, You hereby certify that You: (a) are not a
+citizen of, nor located in, any of the countries prohibited from receiving
+United States ("US") exports, or prohibited from transacting with US citizens
+pursuant to US embargoes or other sanctions; (b) are not prohibited from
+receiving US exports by being listed on any export denial list published by the:
+US State Department - Directorate of Defense Trade Controls, US Treasury
+Department - Office of Foreign Assets Control, or US Department of Commerce -
+Bureau of Industry and Security; and, (c) will not export or re-export US-origin
+products or technology obtained from Timesys in violation of US export
+regulations. You acknowledge that Timesys has the right, but not the obligation,
+to periodically audit Your use of the Timesys Software to ensure Your compliance
+with these Terms and applicable laws. You agree to immediately notify Timesys of
+any unauthorized use of the Timesys Software, Your account or any other breach
+of security of which You become aware.
+
+2.
+
+Trial Software: If the Timesys Software is used for evaluation purpose only then
+the license granted hereunder is a limited, non-exclusive, non-transferable,
+revocable license to install and use the Trial Software solely during the
+License Period for internal review and testing of the Trial Software. This
+license grant shall terminate immediately and without further notice upon
+expiration of the License Period, at which time You shall return to Timesys, or
+certify as destroyed, all Trial Software and related documentation. "License
+Period" means (subject to earlier termination as set forth in Section F below)
+the period of time beginning with the date upon which You first install the
+Trial Software and ending upon the earliest occurrence of any of the following
+events: (i) You purchase a subscription and technical support for Timesys
+Software; or (ii) End date of the agreed upon trial period.
+
+3.
+
+Pre-Release Software: If the Timesys Software has not yet been made generally
+available for licensing by the public ("Pre-Release Software"), then the license
+granted hereunder is a limited, non-exclusive, non-transferable, revocable
+license to install and use the Pre-Release Software solely during the License
+Period for internal review and testing of the Pre-Release Software. This license
+grant shall terminate immediately and without further notice upon expiration of
+the License Period, at which time You shall return to Timesys, or certify as
+destroyed, all Pre-Release Software and related documentation. "License Period"
+means (subject to earlier termination as set forth in Section F below) the
+period of time beginning with the date upon which You first install the Pre-Release
+Software and ending upon the earliest occurrence of any of the following events:
+(i) the Pre-Release Software is released and made generally available for
+licensing by the public; or (ii) Timesys notifies You of its intent to cancel
+this EULA as it applies to Pre-Release Software (in which case the License
+Period will end thirty (30) days after such notification)
+
+B. RESTRICTIONS
+
+1.
+
+TimeSys Software: Except as expressly set forth above, You may not: (i) use,
+copy, disclose, distribute, modify, or create derivative works of the Timesys
+Software; (ii) use the Timesys Software for outsourcing, time-sharing, for the
+benefit of any third party, or in competition with Timesys; (iii) cause or allow
+any portion of the Timesys Software to be subject to any open source license
+except to the extent that such portion is provided to You by Timesys under the
+terms of such open source license; (iv) decompile, disassemble or reverse
+engineer the Timesys Software, or permit any third parties, including end-users
+of Your Application, to do so; (v) export or import the Timesys Software or Your
+Application in violation of any applicable U.S. laws or regulations, including U.S.
+Department of Commerce Export Administration Regulations, or permit any end-user
+to do so; or (vi) permit end-users to copy, distribute, transfer, modify or
+create derivatives of the Timesys Software, except as part of Your Application
+in a manner consistent with Your obligations as set forth in this EULA.
+
+2.
+
+Records/Audit: You shall maintain complete and accurate records of each of Your
+employees and contractors that use the Timesys Software for a period of three (3)
+years. In the event that one or more of such employees or contractors is no
+longer employed by You, You may substitute a replacement, provided that such
+records are promptly updated accordingly. Timesys may inspect such records upon
+request at any time during the term of this EULA and for three years thereafter.
+
+3.
+
+Interoperability:In the event that You require information to achieve
+interoperability of the Timesys Software with another software program or
+hardware device, You shall request such information as necessary from Timesys.
+Timesys may, in its sole discretion, provide such information, and shall, in any
+case, respond to any such request with information concerning its decision.
+
+4.
+
+General: All rights not expressly granted herein are expressly reserved.
+
+C. FEES AND OTHER CONSIDERATION
+
+1.
+
+The license granted to You in this EULA for Timesys Software is contingent upon
+Your payment to Timesys of the Subscription or License Fees for the Timesys
+Software, if applicable, in accordance with Timesys' pricing policies current as
+of the date of Your acquisition of the Timesys Software.
+
+2.
+
+Subscription Fees, License Fees and any applicable Annual Technical Support Fee
+for Your first year of Timesys Software use are due and payable in advance of
+Your use of the Timesys Software, unless other payment terms are mutually agreed
+by both parties in writing.
+
+3.
+
+Timesys reserves the right to charge interest at a rate of 1.5% per month or the
+highest rate allowable by law on any undisputed past due balances.
+
+4.
+
+Any applicable License Fees and Technical Support Fees are exclusive of any
+applicable taxes. You agree that You shall be responsible for the payment of all
+taxes related to the Timesys Software, Your Application, and this EULA, other
+than taxes based upon Timesys' income.
+
+5.
+
+Additional Consideration - Publicity: In further consideration of the licenses
+granted hereunder, You agree to permit Timesys to use Your name and trademarks
+to identify You as a Timesys customer on Timesys' web site(s), in Timesys
+marketing materials and in other sales and marketing activities. Timesys agrees
+to cooperate with You in reasonable publicity efforts involving the Timesys
+Software, such as, for example, media releases and marketing materials in
+accordance with Your reasonable request.
+
+D. INTELLECTUAL PROPERTY RIGHTS
+
+1.
+
+General: Timesys holds and retains all right, title and interest in and to the
+Timesys Software, the related source code, any and all modifications to or
+derivatives of the Timesys Software, and any and all associated patents,
+copyrights, and other intellectual property rights. All Timesys Software is
+unpublished and confidential.
+
+2.
+
+Third Party: Certain portions of the Timesys Software may be subject to the
+ownership rights of Timesys' licensors and incorporated under license to Timesys.
+You will find any relevant information about third party ownership rights in the
+relevant notice, license and/or copyright files included with the programs. You
+retain all ownership to Your Application.
+
+3.
+
+Government: If you are acquiring the Timesys Software on behalf of the U.S.
+Government, the following provisions apply: (i) if the Timesys Software is
+supplied to DoD or any related agency or service, the Programs are classified as
+"Commercial Computer Software" and the Government is acquiring only rights as
+set forth in this EULA; and (ii) if the Timesys Software is supplied to any
+other unit or agency of the U.S. Government, the Timesys Software is considered
+"restricted computer software" and the Government's rights in the Timesys
+Software are set forth in the Federal Acquisition Regulations. The Contractor
+for the Programs is Timesys Corporation, 925 Liberty Avenue, Pittsburgh,
+Pennsylvania 15222.
+
+4.
+
+Open Programs: This EULA does not apply to the Linux kernel or any other
+software tools, drivers or other components identified as subject to an open
+source license in the relevant notice, license and/or copyright files included
+with the programs (collectively the "Open Programs"). Open Programs may be
+supplied in the same electronic file transmission as the Timesys Software, but
+are separate and distinct programs. The Timesys Software is not subject to the
+GPL or any other open source license.
+
+5.
+
+Marks: You and Timesys hereby grants to the other the non-transferable, non-assignable,
+revocable right and license to use the other's name and trademarks ("Marks")
+solely in fulfillment of obligations and exercise of rights under this EULA.
+Each party shall adhere to each other's policies regarding use of the other's
+Marks, and shall retain the right to revoke permission to use such Marks.
+
+6.
+
+Injunctive Relief: You hereby acknowledge and agree that the Timesys Software
+and related source code are proprietary and confidential to Timesys and that the
+Timesys Software and related source code contain valuable Timesys trade secrets,
+the disclosure of which would cause Timesys irreparable harm for which monetary
+compensation would be inadequate. You therefore further agree that if You breach
+Your obligations under this EULA, Timesys shall be entitled to injunctive relief
+from a court of competent jurisdiction without the need to post any bond or
+demonstrate actual damages.
+
+E. TECHNICAL SUPPORT
+
+1.
+
+TimeSys Technical Support consists of the support described on the TimeSys web
+sites, including www.timesys.com and https://linuxlink.timesys.com/support/policy/
+
+2.
+
+Installation of the TimeSys Software may require entry of specific key codes
+issued by TimeSys to You. You agree to the use of these key codes in accordance
+with this EULA and with the Terms of Service for the TimeSys Service, to hold
+these key codes in confidence and to not disclose them to any third parties.
+
+F. TERM AND TERMINATION
+
+1.
+
+This EULA shall become effective on the date of Your first use of the TimeSys
+Software and shall remain in full force and effect until terminated under this
+Section F.
+
+2.
+
+The rights granted under the License Grant section of this EULA shall
+automatically terminate if You breach any of the provisions contained herein,
+including any failure to pay license fees, if applicable. You may terminate the
+License Grant section of this EULA at any time upon notice to Timesys. Such
+termination will not entitle You to any refund of any fees. All other provisions
+of this EULA shall survive any such termination.
+
+G. NO WARRANTY
+
+1.
+
+The TimeSys Software is provided "AS IS" without warranty of any kind, express
+or implied, including without limitation any implied warranties of
+merchantability, fitness for a particular purpose or non-infringement.
+
+2.
+
+Pre-Release Software may not be fully tested, debugged, or otherwise readied for
+production use. Any information provided by TimeSys regarding the development
+status of Pre-Release Software is for Informational Purposes Only.
+
+H. INDEMNIFICATION
+
+You agree to indemnify, defend and hold Timesys harmless from and against any
+and all claims, suits, damages, costs and expenses arising from Your use of the
+Timesys Software, howsoever arising.
+
+I. INFRINGEMENT
+
+1.
+
+Timesys will defend or settle, at its option and expense, any action brought
+against You in the United States, Canada, Japan, or member state of the European
+Union which alleges that any standard, generally supported Timesys Software
+infringes a patent or copyright or misappropriates a trade secret in such
+jurisdiction. Timesys will pay any costs and damages finally awarded against You
+that are attributable to the action.You understand and agree that as conditions
+to Timesys' obligations under this section must: (a) notify Timesys promptly in
+writing of the action; (b) provide Timesys all reasonable information and
+assistance to settle or defend the action; and (c) grant Timesys sole authority
+and control of the defense or settlement of the action.
+
+2.
+
+If a claim is made under Subsection 1 Timesys may, at its option and expense,
+either: (a) replace or modify the Timesys Software so that it becomes non-infringing;
+(b) procure for You the right to continue using the Timesys Software; or (c)
+require the return of the Timesys Software and refund to You any fees paid, less
+a reasonable allowance for use.
+
+3.
+
+Timesys has no liability to You if the claim is based upon: (a) the combination
+of the Timesys Software with any product not furnished by Timesys; (b) the
+modification of the Timesys Software other than by Timesys or as directed by
+Timesys; (c) the continued use of the infringing Timesys Software when Timesys
+has provided You with a current unaltered release of a non-infringing Timesys
+Software in accordance with Subsection 2(a); (d) the use of Timesys Software as
+part of an infringing process; (e) a product that You make, use, or sells; (f)
+any Trial Software or Pre-release Software; (g) any third party software
+provided by Timesys' licensors who do not provide such indemnification to You or
+(h) infringement by You that is deemed willful. In the case of (h), You shall
+reimburse Timesys for its reasonable attorney fees and other costs related to
+the action.
+
+4.
+
+THIS SECTION I IS SUBJECT TO SECTION J AND STATES THE ENTIRE LIABILITY OF
+TIMESYS AND ITS LICENSORS AND YOUR SOLE AND EXCLUSIVE REMEDY WITH RESPECT TO ANY
+ALLEGED PATENT OR COPYRIGHT INFRINGEMENT OR TRADE SECRET MISAPPROPRIATION BY ANY
+TIMESYS SOFTWARE LICENSED UNDER THIS AGREEMENT
+
+J. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by applicable law and notwithstanding the
+failure of any remedy to fulfill its essential purpose: In no event shall
+Timesys, Timesys' officers, directors, employees, agents, or distributors be
+liable to You or any other party for any loss or damages or legal fees arising
+from or related to the use of the Timesys Software, howsoever arising, or any
+damages related to this EULA in excess of the amount of fees paid hereunder in
+the twelve (12) months preceding the event giving rise to the claim; and, in no
+event shall Timesys, Timesys' officers, directors, employees, agents, or
+distributors be liable for any indirect, special, punitive, or consequential
+damages, including without limitation, loss of profits, howsoever arising, even
+if informed of the possibility of such damages.
+
+K. DISPUTE RESOLUTION
+
+In the event of a dispute between You and Timesys arising in connection with
+this EULA, such dispute shall be resolved, at Timesys' sole option, by binding
+arbitration under the rules and auspices of the American Arbitration Association.
+Arbitration shall take place in the Commonwealth of Pennsylvania, U.S.A. The
+foregoing shall not prevent Timesys from seeking applicable injunctive relief in
+a court of competent jurisdiction.
+
+L. CHOICE OF LAW AND FORUM
+
+This EULA shall be governed for all purposes by the laws of the Commonwealth of
+Pennsylvania, excluding choice of law provisions. Any action or proceeding
+seeking to enforce any provision of, or based on any right arising out of, this
+EULA may be brought against You or Timesys in any of the courts of the
+Commonwealth of Pennsylvania, including United States District Courts. You
+consent to the jurisdiction of such courts in any such action or proceeding and
+waive any objection to venue laid therein. Process in any action or proceeding
+referred to in the preceding sentence may be served on either party to this EULA
+anywhere in the world. You expressly agree that the United Nations Convention on
+Contracts for the International Sale of Goods will not apply to this EULA.
+
+M. GENERAL
+
+This EULA contains the entire agreement and understanding between You and
+Timesys. Additional or conflicting terms on any purchase order or other document
+issued by You will have no force or effect against Timesys. This EULA may not be
+modified or appended except by an agreement in writing signed by the party
+against whom enforcement is sought. If any provision of this EULA is held to be
+invalid or unenforceable under any circumstances, its application in any other
+circumstances and the remaining provisions of this EULA shall not be affected.
+This EULA may not be assigned by You without the prior written consent of
+Timesys. No waiver by either party of any rights under this EULA will be
+effective unless such waiver is in a writing signed by the party against whom
+enforcement is sought. Any notices relating to this EULA should be sent via
+receipted delivery to Timesys Corporation, 925 Liberty Avenue, Pittsburgh,
+Pennsylvania 15222 USA.

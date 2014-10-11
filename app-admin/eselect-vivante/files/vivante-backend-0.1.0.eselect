@@ -1,0 +1,51 @@
+# -*-eselect-*-  vim: ft=eselect
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+DESCRIPTION="Switch the Vivante acceleration backend"
+MAINTAINER="chewi@aura-online.co.uk"
+VERSION="0.1.0"
+
+SYMLINK_PATH="/usr/lib/opengl/vivante/lib/backends/current"
+SYMLINK_TARGETS=( DirectFB Framebuffer Wayland )
+SYMLINK_DESCRIPTION="acceleration backend"
+SYMLINK_CRUCIAL=true
+
+inherit bin-symlink
+
+# Unfortunately bin-symlink assumes that the target is a file, not a
+# directory. It would work perfectly anyway if it weren't for the mv
+# in set_symlinks.
+
+set_symlinks() {
+	local target="${1}" targets
+	local basedir=${SYMLINK_PATH%/*}
+
+	[[ ! -L ${EROOT}${SYMLINK_PATH} && -e ${EROOT}${SYMLINK_PATH} ]] && \
+		die -q "${EROOT}${SYMLINK_PATH} is not a symlink!"
+
+	if is_number "${target}" && [[ ${target} -ge 1 ]]; then
+		local TARGETS
+
+		find_targets
+		target=${TARGETS[target-1]}
+	elif [[ ! -x ${EROOT}${basedir}/${target} ]]; then
+		# try basename matching
+		local TARGETS t
+		find_targets
+
+		for t in "${TARGETS[@]}"; do
+			if [[ ${t##*/} == ${target} ]]; then
+				target=${t}
+				break
+			fi
+		done
+	fi
+
+	if [[ -x ${EROOT}${basedir}/${target} ]]; then
+		ln -snf "${target}" "${EROOT}${SYMLINK_PATH}" || \
+			die -q "Unable to replace ${EROOT}${SYMLINK_PATH} symlink with ${target}"
+	else
+		die -q "Target '${target}' doesn't appear to be valid!"
+	fi
+}

@@ -1,0 +1,14 @@
+# -*-eselect-*-  vim: ft=eselect
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+DESCRIPTION="Switch the Vivante OpenVG library"
+MAINTAINER="chewi@aura-online.co.uk"
+VERSION="0.1.0"
+
+SYMLINK_PATH="/usr/lib/opengl/vivante/lib/libOpenVG.so"
+SYMLINK_TARGETS=( VG/libOpenVG_355.so VG/libOpenVG_3D.so )
+SYMLINK_DESCRIPTION="OpenVG library"
+SYMLINK_CRUCIAL=true
+
+inherit bin-symlink
