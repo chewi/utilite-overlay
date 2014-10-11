@@ -4,7 +4,7 @@
 
 EAPI=5
 
-EGIT_REPO_URI="https://github.com/austriancoder/mesa.git"
+EGIT_REPO_URI="https://github.com/etnaviv/mesa.git"
 
 if [[ ${PV} = 9999* ]]; then
 	GIT_ECLASS="git-r3"
@@ -49,7 +49,7 @@ for card in ${VIDEO_CARDS}; do
 done
 
 IUSE="${IUSE_VIDEO_CARDS}
-	bindist +classic debug +dri3 +egl +gallium +gbm gles1 gles2 +llvm +nptl
+	bindist +classic debug +dri3 +egl fbdev +gallium +gbm gles1 gles2 +llvm +nptl
 	opencl openvg osmesa pax_kernel openmax pic r600-llvm-compiler selinux
 	vdpau wayland X xvmc xa kernel_FreeBSD"
 
@@ -69,7 +69,7 @@ REQUIRED_USE="
 	r600-llvm-compiler? ( gallium llvm || ( video_cards_r600 video_cards_radeonsi video_cards_radeon ) )
 	wayland? ( egl gbm )
 	xa?  ( gallium )
-	video_cards_etnaviv? ( gallium gbm )
+	video_cards_etnaviv? ( fbdev gallium )
 	video_cards_freedreno?  ( gallium )
 	video_cards_intel?  ( || ( classic gallium ) )
 	video_cards_i915?   ( || ( classic gallium ) )
@@ -130,7 +130,7 @@ RDEPEND="
 	vdpau? ( >=x11-libs/libvdpau-0.7:=[${MULTILIB_USEDEP}] )
 	wayland? ( >=dev-libs/wayland-1.2.0:=[${MULTILIB_USEDEP}] )
 	xvmc? ( >=x11-libs/libXvMC-1.0.8:=[${MULTILIB_USEDEP}] )
-	${LIBDRM_DEPSTRING}[video_cards_etnaviv?,video_cards_freedreno?,video_cards_nouveau?,video_cards_vmware?,${MULTILIB_USEDEP}]
+	${LIBDRM_DEPSTRING}[video_cards_freedreno?,video_cards_nouveau?,video_cards_vmware?,${MULTILIB_USEDEP}]
 "
 for card in ${INTEL_CARDS}; do
 	RDEPEND="${RDEPEND}
@@ -146,6 +146,9 @@ done
 
 DEPEND="${RDEPEND}
 	${PYTHON_DEPS}
+	fbdev? (
+		video_cards_etnaviv? ( media-libs/libetnaviv )
+	)
 	llvm? (
 		r600-llvm-compiler? ( sys-devel/llvm[video_cards_radeon] )
 		video_cards_radeonsi? ( sys-devel/llvm[video_cards_radeon] )
@@ -252,12 +255,11 @@ multilib_src_configure() {
 	fi
 
 	if use egl; then
-		myconf+="--with-egl-platforms=$(use X && echo "x11")$(use wayland && echo ",wayland")$(use gbm && echo ",drm") "
+		myconf+="--with-egl-platforms=$(use X && echo "x11")$(use fbdev && echo "fbdev")$(use wayland && echo ",wayland")$(use gbm && echo ",drm") "
 	fi
 
 	if use gallium; then
 		myconf+="
-			$(use_enable gbm gallium-gbm)
 			$(use_enable llvm gallium-llvm)
 			$(use_enable openvg)
 			$(use_enable openvg gallium-egl)
@@ -311,6 +313,10 @@ multilib_src_configure() {
 
 	# build fails with BSD indent, bug #428112
 	use userland_GNU || export INDENT=cat
+
+	if use video_cards_etnaviv; then
+		myconf+=" ETNA_CFLAGS=-I=/usr/include ETNA_LIBS=-letnaviv"
+	fi
 
 	econf \
 		--enable-dri \
